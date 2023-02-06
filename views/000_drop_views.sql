@@ -14,7 +14,9 @@ DROP VIEW IF EXISTS chantiers.vw_export_suivi_chantier_tiers;
 
 --DROP VIEWS export etapes
 DROP VIEW IF EXISTS chantiers.vw_export_etape_assainissement;
+DROP VIEW IF EXISTS chantiers.vw_export_etape_assainissement_agg;
 DROP VIEW IF EXISTS chantiers.vw_export_etape_eau_potable;
+DROP VIEW IF EXISTS chantiers.vw_export_etape_eau_potable_agg;
 DROP VIEW IF EXISTS chantiers.vw_export_etape_electricite;
 DROP VIEW IF EXISTS chantiers.vw_export_etape_fibre_optique;
 
